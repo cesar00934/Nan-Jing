@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Nan Jing | Restaurante, pollería y menú criollo en Perú</title>
+
+  <meta
+    name="description"
+    content="Nan Jing es un restaurante y pollería en Perú. Consulta nuestro menú, precios, platos criollos, combos, horarios y pedidos por WhatsApp."
+  />
+
+  <meta
+    name="keywords"
+    content="Nan Jing, restaurante Nan Jing, pollería Nan Jing, menú Nan Jing, comida peruana, restaurante en Perú, pollo a la brasa, menú criollo, delivery"
+  />
+
+  <meta name="author" content="Nan Jing Restaurante" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#9b1c1c" />
+
+  <!-- Cambia este link por tu URL real de Vercel -->
+  <link rel="canonical" href="https://nan-jing.vercel.app/" />
+
+  <!-- Open Graph para Facebook, WhatsApp y redes -->
+  <meta property="og:title" content="Nan Jing | Restaurante y pollería" />
+  <meta
+    property="og:description"
+    content="Menú, precios, combos, platos criollos y pedidos por WhatsApp."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://nan-jing.vercel.app/" />
+  <meta property="og:image" content="https://nan-jing.vercel.app/img/hero-restaurante.webp" />
+  <meta property="og:locale" content="es_PE" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Nan Jing | Restaurante y pollería" />
+  <meta
+    name="twitter:description"
+    content="Consulta el menú, precios y pedidos por WhatsApp."
+  />
+  <meta name="twitter:image" content="https://nan-jing.vercel.app/img/hero-restaurante.webp" />
+
+  <!-- Preload para mejorar velocidad -->
+  <link rel="preload" href="styles.css" as="style" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <script src="app.js" defer></script>
+
+  <!-- Datos estructurados para SEO local -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Nan Jing",
+    "image": "https://nan-jing.vercel.app/img/hero-restaurante.webp",
+    "description": "Nan Jing es un restaurante y pollería con comida peruana, menú criollo, combos y pedidos por WhatsApp.",
+    "servesCuisine": [
+      "Comida peruana",
+      "Pollería",
+      "Menú criollo",
+      "Platos a la carta"
+    ],
+    "priceRange": "S/ 10 - S/ 60",
+    "telephone": "+51999999999",
+    "url": "https://nan-jing.vercel.app/",
+    "menu": "https://nan-jing.vercel.app/#menu",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Principal 123",
+      "addressLocality": "Cambia tu distrito",
+      "addressRegion": "Lima",
+      "postalCode": "15000",
+      "addressCountry": "PE"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "09:00",
+        "closes": "22:00"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/",
+      "https://www.instagram.com/",
+      "https://www.tiktok.com/"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header" id="inicio">
+    <nav class="navbar" aria-label="Navegación principal">
+      <a href="#inicio" class="brand" aria-label="Ir al inicio">
+        <span class="brand-logo">NJ</span>
+        <span class="brand-text">
+          <strong>Nan Jing</strong>
+          <small>Restaurante & Pollería</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#menu">Menú</a></li>
+        <li><a href="#combos">Combos</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#ubicacion">Ubicación</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+
+      <a
+        class="nav-whatsapp"
+        href="https://wa.me/51999999999?text=Hola%20Nan%20Jing,%20quiero%20ver%20el%20men%C3%BA%20y%20precios"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Pedir por WhatsApp
+      </a>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero section-padding">
+      <div class="hero-content">
+        <p class="eyebrow">Restaurante familiar en Perú</p>
+
+        <h1>Nan Jing, chifa, pollería y menú para todos los días</h1>
+
+        <p class="hero-description">
+          Disfruta platos criollos, pollo a la brasa, menús económicos,
+          combos familiares y atención rápida por WhatsApp.
+        </p>
+
+        <div class="hero-actions">
+          <a
+            class="btn btn-primary"
+            href="https://wa.me/51999999999?text=Hola%20Nan%20Jing,%20quiero%20ver%20el%20men%C3%BA%20y%20precios"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ver menú por WhatsApp
+          </a>
+
+          <a class="btn btn-secondary" href="#menu">
+            Ver platos
+          </a>
+        </div>
+
+        <div class="hero-info">
+          <div>
+            <strong>Horario</strong>
+            <span>9:00 a.m. - 10:00 p.m.</span>
+          </div>
+
+          <div>
+            <strong>Delivery</strong>
+            <span>Pedidos por WhatsApp</span>
+          </div>
+
+          <div>
+            <strong>Ubicación</strong>
+            <span>Huacho</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image-card">
+        <!-- 
+          Agrega tu imagen real aquí:
+          img/hero-restaurante.webp
+          Tamaño recomendado: 1600x1000 px
+        -->
+        <div class="image-placeholder image-hero">
+          <span>Agrega aquí una foto principal del restaurante o plato estrella</span>
+        </div>
+
+        <div class="floating-card">
+          <strong>Menú desde S/ 10</strong>
+          <span>Consulta precios actualizados por WhatsApp</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-bar" aria-label="Beneficios del restaurante">
+      <article>
+        <strong>Atención rápida</strong>
+        <span>Consulta el menú por WhatsApp</span>
+      </article>
+
+      <article>
+        <strong>Comida fresca</strong>
+        <span>Platos preparados al momento</span>
+      </article>
+
+      <article>
+        <strong>Combos familiares</strong>
+        <span>Opciones para compartir</span>
+      </article>
+
+      <article>
+        <strong>Precios accesibles</strong>
+        <span>Menús y platos a la carta</span>
+      </article>
+    </section>
+
+    <section class="section section-light" id="menu">
+      <div class="section-header">
+        <p class="eyebrow">Nuestro menú</p>
+        <h2>Platos destacados de Nan Jing</h2>
+        <p>
+          Estos son algunos denuestros platos mas populares.
+        </p>
+      </div>
+
+      <div class="cards-grid">
+        <article class="food-card">
+          <div class="food-image">
+            <div class="image-placeholder">
+              <span>Foto: pollo a la brasa</span>
+            </div>
+          </div>
+
+          <div class="food-content">
+            <h3>Pollo a la brasa</h3>
+            <p>Con papas fritas, ensalada fresca y cremas de la casa.</p>
+            <div class="food-bottom">
+              <strong>S/ 18.00</strong>
+              <a
+                href="https://wa.me/51999999999?text=Hola%20Nan%20Jing,%20quiero%20pedir%20pollo%20a%20la%20brasa"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Pedir
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="food-card">
+          <div class="food-image">
+            <div class="image-placeholder">
+              <span>Foto: lomo saltado</span>
+            </div>
+          </div>
+
+          <div class="food-content">
+            <h3>Lomo saltado</h3>
+            <p>Carne salteada con cebolla, tomate, papas y arroz.</p>
+            <div class="food-bottom">
+              <strong>S/ 20.00</strong>
+              <a
+                href="https://wa.me/51999999999?text=Hola%20Nan%20Jing,%20quiero%20pedir%20lomo%20saltado"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Pedir
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="food-card">
+          <div class="food-image">
+            <div class="image-placeholder">
+              <span>Foto: menú del día</span>
+            </div>
+          </div>
+
+          <div class="food-content">
+            <h3>Menú del día</h3>
+            <p>Entrada, segundo y refresco. Ideal para almuerzo diario.</p>
+            <div class="food-bottom">
+              <strong>Desde S/ 12.00</strong>
+              <a
+                href="https://wa.me/51999999999?text=Hola%20Nan%20Jing,%20quiero%20saber%20el%20men%C3%BA%20del%20d%C3%ADa"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Consultar
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="food-card">
+          <div class="food-image">
+            <div class="image-placeholder">
+              <span>Foto: mostrito</span>
+            </div>
+          </div>
+
+          <div class="food-content">
+            <h3>Mostrito</h3>
+            <p>Arroz chaufa, pollo broaster o brasa, papas y cremas.</p>
+            <div class="food-bottom">
+              <strong>S/ 16.00</strong>
+              <a
+                href="https://wa.me/51999999999?text=Hola%20Nan%20Jing,%20quiero%20pedir%20un%20mostrito"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Pedir
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="combos">
+      <div class="section-header">
+        <p class="eyebrow">Promociones</p>
+        <h2>Combos para compartir</h2>
+       
+      </div>
+
+      <div class="combo-grid">
+        <article class="combo-card featured">
+          <span class="badge">Más pedido</span>
+          <h3>Combo familiar</h3>
+          <p>1 pollo entero, papas, ensalada, cremas y bebida.</p>
+          <strong>S/ 59.90</strong>
+          <a
+            class="btn btn-primary"
+            href="https://wa.me/51999999999?text=Hola%20Nan%20Jing,%20quiero%20pedir%20el%20combo%20familiar"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Pedir combo
+          </a>
+        </article>
+
+        <article class="combo-card">
+          <h3>Combo personal</h3>
+          <p>1/4 de pollo, papas, ensalada y bebida personal.</p>
+          <strong>S/ 22.90</strong>
+          <a
+            href="https://wa.me/51999999999?text=Hola%20Nan%20Jing,%20quiero%20pedir%20el%20combo%20personal"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Consultar
+          </a>
+        </article>
+
+        <article class="combo-card">
+          <h3>Menú ejecutivo</h3>
+          <p>Entrada, segundo, refresco y opción de delivery.</p>
+          <strong>Desde S/ 10.00</strong>
+          <a
+            href="https://wa.me/51999999999?text=Hola%20Nan%20Jing,%20quiero%20consultar%20el%20men%C3%BA%20ejecutivo"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Consultar
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="split-layout">
+        <div>
+          <p class="eyebrow">Cómo pedir</p>
+          <h2>Pide tu comida en pocos pasos</h2>
+        
+
+          <div class="steps">
+            <article>
+              <span>1</span>
+              <div>
+                <h3>Elige tu plato</h3>
+                <p>Revisa el menú, combos o promociones disponibles.</p>
+              </div>
+            </article>
+
+            <article>
+              <span>2</span>
+              <div>
+                <h3>Escribe por WhatsApp</h3>
+                <p>El botón abre un mensaje listo para enviar.</p>
+              </div>
+            </article>
+
+            <article>
+              <span>3</span>
+              <div>
+                <h3>Confirma tu pedido</h3>
+                <p>El restaurante responde precios, tiempo y delivery.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="order-box">
+          <h3>Mensaje automático</h3>
+          
+
+          <div class="message-preview">
+            Hola Nan Jing, quiero ver el menú y precios.
+          </div>
+
+          <a
+            class="btn btn-primary full"
+            href="https://wa.me/51999999999?text=Hola%20Nan%20Jing,%20quiero%20ver%20el%20men%C3%BA%20y%20precios"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Enviar por WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="galeria">
+      <div class="section-header">
+        <p class="eyebrow">Galería</p>
+        <h2>Fotos del restaurante y platos</h2>
+
+      </div>
+
+      <div class="gallery-grid">
+        <div class="image-placeholder tall">
+          <span>Foto del plato principal</span>
+        </div>
+
+        <div class="image-placeholder">
+          <span>Foto del local</span>
+        </div>
+
+        <div class="image-placeholder">
+          <span>Foto del menú físico</span>
+        </div>
+
+        <div class="image-placeholder">
+          <span>Foto de combo familiar</span>
+        </div>
+
+        <div class="image-placeholder wide">
+          <span>Foto de fachada para Google Maps</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="ubicacion">
+      <div class="split-layout location-layout">
+        <div>
+          <p class="eyebrow">Visítanos</p>
+          <h2>Ubicación y horario de atención</h2>
+
+          <div class="info-list">
+            <p>
+              <strong>Dirección:</strong>
+              Av. Centenario , Huacho, Perú
+            </p>
+
+            <p>
+              <strong>Horario:</strong>
+              Lunes a domingo de 9:00 a.m. a 10:00 p.m.
+            </p>
+
+            <p>
+              <strong>Teléfono:</strong>
+              +51 999 999 999
+            </p>
+
+            <p>
+              <strong>Delivery:</strong>
+              Consulta cobertura por WhatsApp.
+            </p>
+          </div>
+
+          <div class="location-actions">
+            <a
+              class="btn btn-primary"
+              href="https://wa.me/51999999999?text=Hola%20Nan%20Jing,%20quiero%20saber%20su%20ubicaci%C3%B3n"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Consultar ubicación
+            </a>
+
+            <a
+              class="btn btn-secondary"
+              href="https://www.google.com/maps"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ver en Google Maps
+            </a>
+          </div>
+        </div>
+
+        <div class="map-box">
+          <h3>Mapa del local</h3>
+        
+
+          <div class="map-placeholder">
+            Google Maps
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="section-header">
+        <p class="eyebrow">Opiniones</p>
+        <h2>Lo que dicen nuestros clientes</h2>
+      
+      </div>
+
+      <div class="reviews-grid">
+        <article class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>
+            “Buena atención, comida rica y precios cómodos. Recomendado.”
+          </p>
+          <strong>Cliente frecuente</strong>
+        </article>
+
+        <article class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>
+            “El pollo estuvo muy bueno y el pedido llegó rápido.”
+          </p>
+          <strong>Pedido por WhatsApp</strong>
+        </article>
+
+        <article class="review-card">
+          <div class="stars">★★★★★</div>
+          <p>
+            “Buen lugar para almorzar menú diario.”
+          </p>
+          <strong>Cliente de la zona</strong>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-light">
+      <div class="section-header">
+        <p class="eyebrow">Preguntas frecuentes</p>
+        <h2>Dudas comunes</h2>
+      </div>
+
+      <div class="faq">
+        <details>
+          <summary>¿Tienen delivery?</summary>
+          <p>Sí, puedes consultar cobertura y costo de delivery por WhatsApp.</p>
+        </details>
+
+        <details>
+          <summary>¿Dónde puedo ver el menú actualizado?</summary>
+          <p>
+            Puedes pedir el menú actualizado por WhatsApp 
+          </p>
+        </details>
+
+        <details>
+          <summary>¿Atienden todos los días?</summary>
+          <p>
+            Sí, atendemos de lunes a domingo.
+          </p>
+        </details>
+
+        <details>
+          <summary>¿Aceptan pedidos para llevar?</summary>
+          <p>Sí, puedes pedir para recoger en el local o consultar delivery.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="cta-section" id="contacto">
+      <div>
+        <p class="eyebrow">Contacto directo</p>
+        <h2>¿Quieres ver el menú y precios de Nan Jing?</h2>
+        <p>
+          Escríbenos por WhatsApp y te enviamos la carta actualizada.
+        </p>
+      </div>
+
+      <a
+        class="btn btn-primary"
+        href="https://wa.me/51999999999?text=Hola%20Nan%20Jing,%20quiero%20ver%20el%20men%C3%BA%20y%20precios"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Contactar ahora
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Nan Jing</strong>
+   
+      <p>Restaurante, pollería y chifa.</p>
+         <p>© <span id="year"></span> Nan Jing. Todos los derechos reservados.</p>
+
+    </div>
+
+    
+    
+    
+  </footer>
+
+  <a
+    class="whatsapp-float"
+    href="https://wa.me/51999999999?text=Hola%20Nan%20Jing,%20quiero%20ver%20el%20men%C3%BA%20y%20precios"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Contactar por WhatsApp"
+  >
+    WhatsApp
+  </a>
+</body>
+</html>
